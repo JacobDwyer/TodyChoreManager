@@ -1,3 +1,7 @@
+# ResumeWebsite
+
+Resume website for Jacob Dwyer built with AWS Amplify and React w/ TypeScript
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
