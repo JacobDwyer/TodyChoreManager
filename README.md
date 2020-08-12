@@ -1,4 +1,4 @@
-# ResumeWebsite
+# TodyChoreManager
 Chore manager app replicating the android app Tody but built with AWS Amplify and React w/ TypeScript.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
