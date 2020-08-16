@@ -10,6 +10,11 @@
             "StackName": "amplify-todychoremanager-dev-195117",
             "StackId": "arn:aws:cloudformation:us-east-1:444260164889:stack/amplify-todychoremanager-dev-195117/c2426c60-dcf6-11ea-aaee-0a4db9a5d67f",
             "AmplifyAppId": "d2otgltpcicy3m"
+        },
+        "categories": {
+            "auth": {
+                "cognitoa36e61bf": {}
+            }
         }
     }
 }

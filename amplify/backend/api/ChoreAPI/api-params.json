@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/chores",
+            "lambdaFunction": "ChoreAPI",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "ChoreAPI",
+    "apiName": "ChoreAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "ChoreAPI"
+        }
+    ],
+    "privacy": {
+        "auth": 2,
+        "unauth": 0,
+        "authRoleName": "amplify-todychoremanager-dev-195117-authRole",
+        "unAuthRoleName": "amplify-todychoremanager-dev-195117-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "ChoreAPI",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "0d669e12"
+}
